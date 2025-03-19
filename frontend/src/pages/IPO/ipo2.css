@@ -1,0 +1,62 @@
+.ipo2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .ipo2-card {
+    background: white;
+    padding: 30px;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ipo2-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .ipo2-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 5px;
+  }
+  
+  .ipo2-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .ipo2-text {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .ipo2-btn {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .ipo2-btn:hover {
+    background-color: #1e60d1;
+  }
+  
+  @media (max-width: 768px) {
+    .ipo2-card {
+      padding: 20px;
+    }
+  }
+  

@@ -1,0 +1,164 @@
+.broker-details-container {
+  margin-top: 6%;
+  width: 95%;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #6a5acd;
+}
+
+.page-title span {
+  color: #16a34a;
+}
+
+.broker-details-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.broker-details-card:hover {
+  transform: translateY(-5px);
+}
+
+.broker-info {
+  flex: 1;
+  text-align: left;
+}
+
+.broker-info h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.rating {
+  display: flex;
+  gap: 5px;
+  color: gold;
+}
+
+.star-icon {
+  font-size: 18px;
+}
+
+.broker-info p {
+  margin: 5px 0;
+}
+
+.free-account {
+  font-weight: bold;
+  color: #16a34a;
+}
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.open-account,
+.learn-more {
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.open-account {
+  background-color: #4caf50;
+  color: white;
+}
+
+.learn-more {
+  background-color: #008cba;
+  color: white;
+}
+
+.broker-services,
+.broker-charges {
+  flex: 1;
+  text-align: left;
+  padding: 10px;
+}
+
+.broker-services p,
+.broker-charges p {
+  margin: 5px 0;
+}
+
+.broker-charges strong {
+  font-size: 14px;
+}
+
+.broker-logo {
+  flex: 1;
+  text-align: right;
+}
+
+.broker-logo img {
+  width: 80px;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .broker-details-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .broker-details-container{
+    margin-top: 100px;
+  }
+
+  .broker-info,
+  .broker-services,
+  .broker-charges,
+  .broker-logo {
+    text-align: center;
+    width: 100%;
+  }
+
+  .broker-logo img {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 28px;
+  }
+
+  .broker-details-card {
+    padding: 15px;
+  }
+
+  .open-account,
+  .learn-more {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .broker-details-card {
+    padding: 10px;
+  }
+
+  .broker-info h2 {
+    font-size: 18px;
+  }
+
+  .star-icon {
+    font-size: 16px;
+  }
+}

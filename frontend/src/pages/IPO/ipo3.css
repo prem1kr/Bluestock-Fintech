@@ -1,0 +1,81 @@
+.ipo-container {
+    font-family: Arial, sans-serif;
+    margin-top: 5%;
+    
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .ongoing-ipo, .new-listed {
+    margin-bottom: 40px;
+  }
+  
+  .ipo-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    max-width: 400px;
+  }
+  
+  .company-name {
+    color: #007bff;
+    font-size: 18px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  
+  .rhp-btn, .drhp-btn {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .rhp-btn {
+    background-color: gray;
+    color: white;
+  }
+  
+  .drhp-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .view-all {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .ipo-news-analysis {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .ipo-news, .ipo-analysis {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 48%;
+  }
+  
+  .ipo-news h3, .ipo-analysis h3 {
+    color: #333;
+  }
+  

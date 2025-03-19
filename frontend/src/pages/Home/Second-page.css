@@ -1,0 +1,99 @@
+.second-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 307px;
+  top: 750px;
+  position: absolute;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.left-section {
+  max-width: 50%;
+  margin-left: 10%;
+  margin-top: 10px;
+
+}
+
+.subtitle {
+  color: gray;
+  font-size: 24px;
+}
+
+.highlight-text {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.purple {
+  color: purple;
+  font-size: 40px;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+}
+
+.right-section {
+  text-align: right;
+  max-width: 50%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.emoji {
+  font-size: 24px;
+}
+
+.description {
+  font-size: 20px;
+  color: black;
+  line-height: 1.5;
+  max-width: 200px;
+  font-weight: 100;
+}
+
+@media (max-width: 768px) {
+  .second-page {
+      flex-direction: column;
+      height: auto;
+      text-align: center;
+      top: 1220px;
+     
+      
+    
+  }
+
+  .left-section, .right-section {
+      max-width: 100%;
+      margin: 0;
+  }
+
+  .highlight-text {
+      font-size: 1.8rem;
+      line-height: 2rem;
+      
+  }
+
+  .purple, .bold {
+      font-size: 2rem;
+  }
+
+  .emoji {
+      font-size: 2rem;
+      margin-top: 1rem;
+  }
+
+  .description {
+      font-size: 1rem;
+      line-height: 1.4rem;     
+      margin-right: 150px;
+  }
+}
