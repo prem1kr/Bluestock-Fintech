@@ -19,7 +19,10 @@ const Navbar = () => {
           alt="Logo"
           className="logo"
         />
+        <a className="brand" href="/">
+
         <span className="brand">BLUESTOCK</span>
+        </a>
       </div>
       <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
         <li><a href="/ipo">IPO</a></li>
