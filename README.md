@@ -2,58 +2,59 @@ README - BLUESTOCK FinTech Website
 Overview
 BLUESTOCK is a comprehensive financial technology platform offering tools and resources for investors, traders, and financial enthusiasts. The platform includes features like IPO tracking, market analysis, broker comparisons, educational resources, and community engagement.
 
-Project Structure
-Backend
-Copy
+**Project Structure**
+
+
 backend/
 ├── config/
-│   └── db.js                # Database configuration
+│   └── db.js                
 ├── controllers/
-│   └── authController.js     # Authentication logic
+│   └── authController.js    
 ├── middleware/
-│   └── authMiddleware.js     # Authentication middleware
+│   └── authMiddleware.js    
 ├── model/
-│   ├── index.js              # Model exports
-│   ├── QuickLink.js          # QuickLink model
-│   └── User.js               # User model
+│   ├── index.js              
+│   ├── QuickLink.js         
+│   └── User.js               
 ├── node_modules/
 ├── routes/
-│   └── authRoutes.js         # Authentication routes
-├── uploads/                  # File uploads directory
-├── .env                      # Environment variables
+│   └── authRoutes.js        
+├── uploads/                  
+├── .env                      
 ├── package-lock.json
 ├── package.json
-└── server.js                 # Main server file
-Frontend
-Copy
+└── server.js   
+
+**frontend**
+
 frontend/
 ├── public/
 │   ├── assets/
 │   └── other item uploads/   # Static assets
 └── src/
     ├── pages/
-    │   ├── About/            # About page components
-    │   ├── Admin-View/       # Admin dashboard components
-    │   ├── Analatysic/       # Analytics tools
-    │   ├── Analysis/         # Market analysis
-    │   ├── Authoritiction/   # Authentication pages (Login, SignUp, Forgot)
-    │   ├── Blog/             # Financial blog
-    │   ├── Broker/           # Broker comparison tools
-    │   ├── Carrers/          # Career opportunities
-    │   ├── Community/        # Community engagement
-    │   ├── Contact/          # Contact forms
-    │   ├── Home/             # Homepage components
-    │   ├── IPO/              # IPO tracking
-    │   ├── MethodFund/       # Fund management tools
-    │   ├── Product/          # Product listings
-    │   ├── Schools/          # Educational resources
-    │   ├── Sector/           # Sector analysis
-    │   ├── Sharks/           # Investor profiles
-    │   └── TechnicalAnal.../ # Technical analysis tools
-    ├── App.css               # Global styles
-    ├── App.jsx               # Main App component
-    ├── index.css             # Base styles
-    └── main.tsx              # Entry point
+    │   ├── About/           
+    │   ├── Admin-View/       
+    │   ├── Analatysic/       
+    │   ├── Analysis/         
+    │   ├── Authoritiction/   
+    │   ├── Blog/             
+    │   ├── Broker/           
+    │   ├── Carrers/          
+    │   ├── Community/        
+    │   ├── Contact/         
+    │   ├── Home/            
+    │   ├── IPO/             
+    │   ├── MethodFund/       
+    │   ├── Product/          
+    │   ├── Schools/
+    │   ├── Sector/          
+    │   ├── Sharks/           
+    │   └── TechnicalAnal
+    ├── App.css               
+    ├── App.jsx               
+    ├── index.css            
+    └── main.tsx             
 
 
 **Features**
