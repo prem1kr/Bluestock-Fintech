@@ -132,7 +132,8 @@ Start development server: npm run dev
 
 **ADMIN DASHBOARD PAGE**
 ![alt text](<Screenshot 2025-03-28 171733.png>)
-![Screenshot 2025-03-28 171750](https://github.com/user-attachments/assets/8f8c3d92-ba12-438d-ba05-f719417a5faa)
+
+![Screenshot 2025-03-28 171750](https://github.com/user-attachments/assets/2deefe72-f2f5-423c-9948-64377eb92153)
 
 ![alt text](<Screenshot 2025-03-28 171809.png>)
 
