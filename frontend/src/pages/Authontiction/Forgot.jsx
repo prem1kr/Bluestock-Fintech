@@ -12,7 +12,7 @@ const Forgot = () => {
     setMessage("");
 
     try {
-      const response = await axios.post("http://localhost:5000/api/auth/forgot-password", { email });
+      const response = await axios.post("https://bluestock-fintech-fx2w.onrender.com/api/auth/forgot-password", { email });
       setMessage(response.data.message);
     } catch (error) {
       setMessage(error.response?.data?.message || "Something went wrong!");
