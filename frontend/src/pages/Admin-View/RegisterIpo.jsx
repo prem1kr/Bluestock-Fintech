@@ -33,7 +33,7 @@ const RegisterIpo = () => {
 
   const fetchIpos = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/ipos");
+      const response = await axios.get("https://bluestock-fintech-fx2w.onrender.com/api/ipos");
       setIpos(response.data);
     } catch (error) {
       console.error("Error fetching IPOs:", error);
@@ -70,7 +70,7 @@ const RegisterIpo = () => {
       if (selectedIpoId) {
         // Update existing IPO
         const response = await axios.put(
-          `http://localhost:5000/api/ipos/${selectedIpoId}`,
+          `https://bluestock-fintech-fx2w.onrender.com/api/ipos/${selectedIpoId}`,
           formData,
           {
             headers: { "Content-Type": "multipart/form-data" },
@@ -80,7 +80,7 @@ const RegisterIpo = () => {
       } else {
         // Create new IPO
         const response = await axios.post(
-          "http://localhost:5000/api/ipos",
+          "https://bluestock-fintech-fx2w.onrender.com/api/ipos",
           formData,
           {
             headers: { "Content-Type": "multipart/form-data" },
@@ -98,7 +98,7 @@ const RegisterIpo = () => {
   // Handle IPO deletion
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/api/ipos/${id}`);
+      await axios.delete(`https://bluestock-fintech-fx2w.onrender.com/api/ipos/${id}`);
       fetchIpos(); // Refresh IPO list
     } catch (error) {
       console.error("Error deleting IPO:", error);
