@@ -20,7 +20,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchIpos = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/ipos");
+        const response = await axios.get("https://bluestock-fintech-fx2w.onrender.com/api/ipos");
         const iposData = response.data;
         setIpos(iposData);
         setTotalIpos(iposData.length);
@@ -41,7 +41,7 @@ const Dashboard = () => {
    useEffect(() => {
     const fetchUserData = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/user/1"); // Replace "1" with the actual user ID
+        const response = await axios.get("https://bluestock-fintech-fx2w.onrender.com/api/user/1"); // Replace "1" with the actual user ID
         setUser(response.data);
       } catch (error) {
         console.error("Error fetching user data:", error);
@@ -54,7 +54,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchQuickLinks = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/ipos");
+        const response = await axios.get("https://bluestock-fintech-fx2w.onrender.com/api/ipos");
         setQuickLinks(response.data);
       } catch (error) {
         console.error("Error fetching quick links:", error);
