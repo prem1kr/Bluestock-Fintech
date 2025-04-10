@@ -16,7 +16,7 @@ const ManageIpo = () => {
 
   const fetchIPOs = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/ipos");
+      const response = await axios.get("https://bluestock-fintech-fx2w.onrender.com/api/ipos");
       console.log("Fetched IPO data:", response.data);
       setIpos(response.data);
     } catch (error) {
@@ -28,7 +28,7 @@ const ManageIpo = () => {
      useEffect(() => {
       const fetchUserData = async () => {
         try {
-          const response = await axios.get("http://localhost:5000/api/user/1"); // Replace "1" with the actual user ID
+          const response = await axios.get("https://bluestock-fintech-fx2w.onrender.com/api/user/1"); // Replace "1" with the actual user ID
           setUser(response.data);
         } catch (error) {
           console.error("Error fetching user data:", error);
@@ -40,7 +40,7 @@ const ManageIpo = () => {
 
   const deleteIPO = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/api/ipos/${id}`);
+      await axios.delete(`https://bluestock-fintech-fx2w.onrender.com/api/ipos/${id}`);
       fetchIPOs();
     } catch (error) {
       console.error("Error deleting IPO:", error);
