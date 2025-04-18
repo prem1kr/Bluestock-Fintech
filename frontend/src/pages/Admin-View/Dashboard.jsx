@@ -20,7 +20,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchIpos = async () => {
       try {
-        const response = await axios.get("https://bluestock-fintech-fx2w.onrender.com/api/ipos");
+        const response = await axios.get("https://bluestock-fintech-bw90.onrender.com/api/ipos");
         const iposData = response.data;
         setIpos(iposData);
         setTotalIpos(iposData.length);
